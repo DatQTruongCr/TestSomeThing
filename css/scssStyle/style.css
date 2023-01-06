@@ -1,0 +1,81 @@
+body {
+  background-color: #f4f4f4;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  margin: 0 0;
+}
+
+img {
+  width: 30%;
+}
+
+.showcase {
+  background-color: #0F4C81;
+  color: #fff;
+  height: 600px;
+  width: 100%;
+}
+.showcase-content {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.showcase-content h1 {
+  font-size: 50px;
+}
+.showcase-content-details {
+  width: 40%;
+}
+.showcase p {
+  margin: 20px 0;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+.container nav {
+  display: flex;
+  justify-content: space-between;
+}
+.container nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+.container nav ul li {
+  padding: 15px;
+}
+.container nav ul a:hover {
+  color: #ff8700;
+}
+.container a {
+  color: #f4f4f4;
+  text-decoration: none;
+}
+
+.btn-secondary, .btn-primary {
+  display: inline-block;
+  border-radius: 5px;
+  padding: 8px 20px;
+  margin: 5px;
+  transition: 0.2s;
+}
+.btn-secondary:hover, .btn-primary:hover {
+  box-shadow: 0 1px 4px white;
+}
+
+.btn-primary {
+  background-color: #0a3153;
+}
+
+.btn-secondary {
+  background-color: #ff8700;
+}
+
+.test {
+  display: flex;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,21 @@
+%btn {
+    display: inline-block;
+    border-radius: 5px;
+    padding: 8px 20px;
+    margin: 5px;
+    transition: 0.2s;
+
+    &:hover {
+
+        box-shadow: 0 1px 4px white;
+
+    }
+}
+
+.btn-primary {
+     @include set-btn-color(darken($primary-color, 10%))
+}
+
+.btn-secondary {
+    @include set-btn-color($secondary-color)
+}
